@@ -1,16 +1,75 @@
-# BluezQt
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# bluez-qt
 
-Qt wrapper for BlueZ 5 DBus API
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/bluez-qt)
 
-## Introduction
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-BluezQt is a library for communication with BlueZ system and session daemons.
+## Architecture
 
-<ul>
-  <li>BluezQt::Manager class is used to communicate with system daemon - org.bluez</li>
-  <li>BluezQt::ObexManager class is used to communicate with session daemon - org.bluez.obex</li>
-</ul>
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-All method calls are asynchronous using BluezQt::PendingCall that helps tracking
-the call progress and handle errors.
+## Install
 
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/bluez-qt.git
+cd bluez-qt
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/bluez-qt`](https://github.com/Interested-Deving-1896/bluez-qt) and mirrored through:
+
+```
+Interested-Deving-1896/bluez-qt  ──►  OpenOS-Project-OSP/bluez-qt  ──►  OpenOS-Project-Ecosystem-OOC/bluez-qt
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
